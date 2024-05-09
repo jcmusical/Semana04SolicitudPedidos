@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+</head><!---->
+<body><!---->
+
+    <!-- Clases Bootstrap
+    
+    -->
+    <div class="border mt-5  text-center container border border-start border-5 text-bg-success">
+        <h1>Solicitud de Pedido</h1>
+    </div>
+
+    <!-- Contenedor Padre mb-2 mt-2 mb-2 d-flex mb-3 -->
+    <div class="container border mt-5  border-danger"> <!--div class="container mt-5 border border-danger"-->
+        <!-- Solicitar Datos -->
+        <!-- <section class="row position-relative m-2 p-2 border"> -->
+
+
+        <!-- <div style="display: flex; justify-content: center;">    class="row position-relative m-2 p-2 border"  -->
+
+            <section class="row position-relative m-2 p-2 border" > <!-- section class="position-relative border m-2 b-2"s -->
+                <div class="col-4">
+                    <input type="text" class="form-control" 
+                        placeholder="Escriba Nombre del Producto"
+                        name="NombreProducto" id="NombreProducto">
+                </div>
+                <div class="col-2">
+                    <input type="number" class="form-control" 
+                        placeholder="Costo del Producto"
+                        name="Costo" id="Costo">
+                </div>
+                <div class="col-4">
+                    <input type="text" class="form-control"
+                        placeholder="Escriba descripción del Producto"
+                        name="descripcion" id="descripcion">
+                </div>
+                <div class="col-2 position-absolute  top-2 end-0 "> <!--d-flex-->
+                    <input type="button" class="btn btn-success" value="Enviar Datos" name="Enviar" onclick="addItem()">
+                </div>
+            </section>
+        
+        <!-- </div> -->
+
+
+        <!-- Mostrar Datos -->
+        <section class="border m-2 p-3"> <!-- section class="border mt-2 mb-2" -->
+            <!-- div class="m-2" id="items-list -->
+            <div class="m-2" id="items-list">   <!-- div class="mt-2 mb-2 ms-2 me-2" id="items-list" -->
+                No hay productos
+            </div>  
+        </section>
+    </div>
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/object.js"></script>
+
+</body>
+</html>

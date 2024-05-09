@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 4 - Proyecto Solicitud Pedido</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+</head><!---->
+<body><!---->
+
+    <!-- Clases Bootstrap En bootstrap que es
+
+        En bootstrap que es:
+
+        COLORES DE LOS BOTONES
+
+        En Bootstrap, los botones tienen clases que puedes usar para aplicar diferentes 
+        estilos de color. Algunos de los colores predefinidos para los botones en Bootstrap son:
+        btn-primary: Azul, utilizado para acciones principales.
+        btn-secondary: Gris, utilizado para acciones secundarias.
+        btn-success: Verde, utilizado para acciones exitosas.
+        btn-danger: Rojo, utilizado para acciones peligrosas.
+        btn-warning: Amarillo, utilizado para acciones de advertencia.
+        btn-info: Azul claro, utilizado para acciones informativas.
+        btn-light: Gris claro, utilizado para botones con un fondo claro.
+        btn-dark: Gris oscuro, utilizado para botones con un fondo oscuro.
+        btn-link: Un estilo de botón sin apariencia de botón, parece un enlace.  
+
+        COLORES DEL TEXTO
+        En Bootstrap, puedes utilizar clases de texto para aplicar diferentes colores a los elementos 
+        de texto. Algunos de los colores predefinidos para los textos en Bootstrap son:
+        text-primary: Color azul oscuro, utilizado para textos principales.
+        text-secondary: Color gris oscuro, utilizado para textos secundarios.
+        text-success: Color verde, utilizado para textos que indican éxito.
+        text-danger: Color rojo, utilizado para textos que indican peligro o error.
+        text-warning: Color amarillo, utilizado para textos que indican advertencia.
+        text-info: Color azul claro, utilizado para textos informativos.
+        text-light: Color blanco o gris claro, utilizado para textos en fondos oscuros.
+        text-dark: Color negro o gris oscuro, utilizado para textos en fondos claros.
+        text-muted: Color gris, utilizado para textos que representan información menos importante.
+
+        ESPACIADO
+        Las clases de espaciado en Bootstrap se dividen en dos categorías principales:
+        Márgenes (m-*): Estas clases se utilizan para agregar márgenes alrededor de los elementos. 
+        La sintaxis de estas clases sigue el patrón m-{direccion}-{tamaño}, donde {direccion} puede ser:
+        t para arriba (top)
+        b para abajo (bottom)
+        l para la izquierda (left)
+        r para la derecha (right)
+        x para horizontal (left y right)
+        y para vertical (top y bottom)
+        Sin {direccion} para aplicar el margen en todos los lados
+        Y {tamaño} indica el tamaño del margen (0 a 5).
+        Rellenos (p-*): Estas clases se utilizan para agregar relleno alrededor de los elementos. 
+        La sintaxis de estas clases sigue el patrón p-{direccion}-{tamaño}, similar a las clases 
+        de margen, pero aplicadas al relleno.
+        Por ejemplo:
+
+        m-2 agrega un margen de tamaño medio en todos los lados.
+        mt-3 agrega un margen superior de tamaño grande.
+        p-4 agrega un relleno de tamaño grande en todos los lados.
+        pb-1 agrega un relleno en la parte inferior de tamaño pequeño.
+        Estas clases facilitan la creación de diseños consistentes y responsivos en Bootstrap al 
+        proporcionar un método claro y predefinido para gestionar el espacio entre los elementos.
+
+        Las clases mt, mb, me, ms, m son parte del sistema de espaciado de Bootstrap y 
+        se utilizan para aplicar márgenes así: 
+        Las medidas son: donde n = 0 (sin margen) hasta 5 (máximo margen)
+
+        En la parte superior: mt-n 
+        En la parte Inferior: mb-n
+        En la parte derecha: me-n
+        En la parte izquierda: ms-n
+
+        m-n es una clase de utilidad que se utiliza para agregar margen a todos los lados de un elemento. 
+        La letra m representa "margin" (margen en inglés).
+
+        p-n es una clase de utilidad que se utiliza para agregar relleno a todos los lados de un elemento. 
+        La letra p representa "padding" (relleno en inglés), y el número n indica el tamaño del relleno.
+
+        La clase col-n se usa para especificar el ancho de una columna en función del número de columnas 
+        que se desea que ocupe en un contenedor de tipo row. En el caso de col-4, indica que la columna 
+        ocupará 4 de las 12 columnas disponibles en el contenedor.
+        n = 1 (una columna) hasta 12 (12 columnas)
+
+        Posicionamiento position-relative en una fila (row) en Bootstrap permite un posicionamiento más 
+        preciso de los elementos hijos dentro de esa fila.
+
+        BORDES
+        Por ejemplo, Bootstrap ofrece clases como border, border-top, border-bottom, border-left, 
+        border-right, etc., que se pueden aplicar a elementos HTML para agregar bordes en diferentes direcciones.
+
+        Además de las clases de color de borde, Bootstrap también proporciona clases para definir el grosor 
+        del borde (border-1, border-2, etc.) y para redondear los bordes (rounded, rounded-top, rounded-bottom, 
+        rounded-left, rounded-right, etc.).
+
+
+        En Bootstrap, container es una clase fundamental que se utiliza para envolver el contenido principal de 
+        tu página web dentro de un contenedor con un ancho fijo y centrado horizontalmente en la pantalla. Este 
+        contenedor proporciona un diseño básico y ayuda a mantener un diseño limpio y organizado en tu sitio.
+
+        El contenedor Bootstrap se adapta automáticamente a diferentes tamaños de pantalla, lo que significa que 
+        su ancho puede variar según el dispositivo en el que se visualiza el sitio. Esto se logra mediante el 
+        uso de técnicas de diseño responsivo, lo que garantiza que tu sitio se vea bien en dispositivos de diferentes 
+        tamaños, como teléfonos móviles, tabletas y computadoras de escritorio.
+
+        
+    -->
+    <div class="border mt-5  text-center container border border-start border-5 text-bg-success">
+        <h1>Solicitud de Pedido</h1>
+    </div>
+
+    <!-- Contenedor Padre mb-2 mt-2 mb-2 d-flex mb-3 -->
+    <div class="container border mt-5  border-danger"> <!--div class="container mt-5 border border-danger"-->
+        <!-- Solicitar Datos -->
+        <!-- <section class="row position-relative m-2 p-2 border"> -->
+
+        <!-- <div style="display: flex; justify-content: center;">    class="row position-relative m-2 p-2 border"  -->
+
+            <section class="row position-relative m-2 p-2 border" > <!-- section class="position-relative border m-2 b-2"s -->
+
+                <div class="col-4">
+                    <input type="text" class="form-control" 
+                        placeholder="Escriba Nombre del Producto"
+                        name="NombreProducto" id="NombreProducto">
+                </div>
+
+                <div class="col-2">
+                    <input type="number" class="form-control" 
+                        placeholder="Costo del Producto"
+                        name="Costo" id="Costo">
+                </div>
+
+                <div class="col-4">
+                    <input type="text" class="form-control"
+                        placeholder="Escriba descripción del Producto"
+                        name="descripcion" id="descripcion">
+                </div>
+
+                <div class="col-2 position-absolute  top-2 end-0 "> <!--d-flex-->
+                    <input type="button" class="btn btn-primary" value="Enviar Datos" name="Enviar" onclick="addItem()">
+                </div>
+
+            </section>
+        
+        <!-- </div> -->
+
+        <!-- Mostrar Datos -->
+        <section class="border m-2 p-3"> <!-- section class="border mt-2 mb-2" -->
+            <!-- div class="m-2" id="items-list -->
+            <div class="m-2" id="items-list">   <!-- div class="mt-2 mb-2 ms-2 me-2" id="items-list" -->
+                No hay productos
+            </div>  
+        </section>
+    </div>
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/object.js"></script>
+
+</body>
+</html>
